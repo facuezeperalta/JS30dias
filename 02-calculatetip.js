@@ -9,5 +9,11 @@ Input: calculateTip(1524.33, 25);
 Output: 381.0825; */
 
 function calculatetip(billAmount, tipPercentage){
+    return billAmount * (tipPercentage/100);
     
 }
+
+
+console.log(calculatetip(100,10));
+
+console.log(calculatetip(1524.33,25));
